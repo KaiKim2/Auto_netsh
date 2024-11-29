@@ -79,7 +79,7 @@ objFSO.DeleteFile "profiles.txt"
 
 ' Open the Notepad file with stored Wi-Fi credentials
 objShell.Run "notepad.exe " & strOutputFile
-WScript.Sleep(1000)
+WScript.Sleep(2000)
 
 ' Paste the contents into Notepad (Ctrl+V) and save (Ctrl+S)
 x.SendKeys "^s"
